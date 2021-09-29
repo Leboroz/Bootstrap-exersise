@@ -1,55 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap exercise</title>
-   
-    <!-- CSS only -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap exercise</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
 </head>
 <body>
-  <div class="row m-2">
-    <div class="col-md-9">
-      <p class="title">Rafael and Leo</p>
-
-    </div>
-    <div class="col-md-3">
-      <div class="row">
-        <div class="col cursor">
-          Portfolio
-        </div>
-        <div class="col cursor">
-          About
-        </div>
-        <div class="col cursor">
-          Contact
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid shadow-sm">
+      <a class="navbar-brand" href="#">Rafael and leo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-
-  <div class="row first_section m-2">
-    <div class="col-md-12">
-      <div class="column">
-        <div class="row">
-          I'm Rafael & Leo<br/>
-          Glad to see you!
-        </div>
-        <div class="row">
-          I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-        </div>
-        <div class="row">
-          LET'S CONNECT
+  </nav>
+  <section class="row first_section m-2 justify-content-center align-items-center">
+    <article class="col-9">
+      <h1 class="m-4 display-5 fw-bold">
+        I'm Rafael & Leo<br>
+        Glad to see you!
+      </h1>
+      <p class="m-4">
+        I’m a software developer! I can help you build a product , feature or website Look through some
+        of my work and experience! If you like what you see and have a project you need coded, don’t 
+        hestiate to contact me.
+      </p>
+      <h2 class="m-4">
+        LET'S CONNECT
+      </h2>
+      <div class="d-flex m-4 fs-3 links">
+        <a href="#"><span><i class="fab fa-twitter me-3"></i></span></a>
+        <a href="#"><span><i class="fab fa-github me-3"></i></span></a>
+        <a href="#"><span><i class="fab fa-linkedin"></i></span></a>
+      </div>
+    </article>
+  </section>
+  <section class="row justify-content-center">
+    <article class="col-9">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-5">
+            <img src="" alt="project-img-1" class="img-fluid rounded-start">
+          </div>
+          <div class="col-7">
+            <div class="card-body p-5">
+              <h5 class="card-title">Ecommerce Store</h5>
+              <p class="card-text">Manage your products, categories, and clients, secure enviroment,
+                 responsive and lightweight.</p>
+              <div class="mb-4">
+                <span class="badge bg-primary rounded-pill">React js</span>
+                <span class="badge bg-primary rounded-pill">Node Backend</span>
+                </div>
+              <button class="btn btn-primary">See project</button>
+            </div>
+          </div>
         </div>
       </div>
-
+      <div class="card mb-3">
+        <div class="row g-0 flex-row-reverse">
+          <div class="col-5">
+            <img src="" alt="project-img-2" class="img-fluid rounded-start">
+          </div>
+          <div class="col-7">
+            <div class="card-body p-5">
+              <h5 class="card-title">Ecommerce Dashboard</h5>
+              <p class="card-text">Online store with the chance of register new clients, multiple payment
+                methods, safe connection to database.</p>
+              <div class="mb-4">
+                <span class="badge bg-primary rounded-pill">React js</span>
+                <span class="badge bg-primary rounded-pill">Node Backend</span>
+                </div>
+              <button class="btn btn-primary">See project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-5"><img src="" alt="project-img-3" class="img-fluid rounded-start"></div>
+          <div class="col-7">
+            <div class="card-body p-5">
+              <h5 class="card-title">Landing Page</h5>
+              <p class="card-text">Show a product, service or a comodity, and increase your sells with 
+                one click payment link.
+              </p>
+              <div class="mb-4">
+                <span class="badge bg-primary rounded-pill">React js</span>
+                <span class="badge bg-primary rounded-pill">Node Backend</span>
+              </div>
+                <button class="btn btn-primary">See project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="container m-5">
+    <div class="row justify-content-center ">
+      <div class="col-9">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </div>
-  
-  </div>
-    <!-- JavaScript Bundle with Popper -->
+  </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

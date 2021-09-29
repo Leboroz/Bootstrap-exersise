@@ -9,5 +9,14 @@
 }
 
 .first_section {
-  height: 100vh;
+  height: 90vh;
+  h2 {
+    color: $purple-500 !important;
+  }
+}
+
+.links {
+  a {
+    color: $gray-600;
+  }
 }

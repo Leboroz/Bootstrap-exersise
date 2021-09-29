@@ -11122,7 +11122,14 @@ textarea.form-control-lg {
 }
 
 .first_section {
-  height: 100vh;
+  height: 90vh;
+}
+.first_section h2, .first_section .h2 {
+  color: #6f42c1 !important;
+}
+
+.links a {
+  color: #6c757d;
 }
 
 /*# sourceMappingURL=style.css.map */
