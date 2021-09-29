@@ -1,5 +1,13 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.text-title {
-  color: $purple-500;
+.title {
+  color: $purple-500 !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.first_section {
+  height: 100vh;
 }

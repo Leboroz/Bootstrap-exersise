@@ -11113,8 +11113,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.text-title {
-  color: #6f42c1;
+.title {
+  color: #6f42c1 !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.first_section {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
