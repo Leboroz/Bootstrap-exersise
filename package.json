@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-exersise",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leboroz/Bootstrap-exersise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leboroz/Bootstrap-exersise/issues"
+  },
+  "homepage": "https://github.com/Leboroz/Bootstrap-exersise#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.1",
+    "sass": "^1.42.1"
+  }
+}
