@@ -11113,6 +11113,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #F7F7F9;
+}
+
 .title {
   color: #6f42c1 !important;
 }
@@ -11124,12 +11128,73 @@ textarea.form-control-lg {
 .first_section {
   height: 90vh;
 }
-.first_section h2, .first_section .h2 {
+.first_section h2, .first_section .h2, .first_section h4, .first_section .h4 {
   color: #6f42c1 !important;
 }
 
 .links a {
   color: #6c757d;
+}
+
+.tag-color {
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.background {
+  background-color: white;
+  border-bottom-left-radius: 150px;
+  margin-bottom: 60px;
+}
+
+.background-aboutme {
+  background-color: white;
+  border-top-right-radius: 150px;
+  margin-top: 60px;
+}
+
+.icon_tag {
+  font-size: large;
+  color: yellow;
+}
+
+.size_font {
+  font-size: 35px;
+}
+
+.badge-1 {
+  color: yellow;
+}
+.badge-2 {
+  color: orange;
+}
+.badge-3 {
+  color: blue;
+}
+.badge-4 {
+  color: lightblue;
+}
+.badge-5 {
+  color: black;
+}
+.badge-6 {
+  color: black;
+}
+
+.alignment {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: fit-content;
+}
+.alignment span {
+  font-size: 18px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */
